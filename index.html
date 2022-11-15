@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Visual Practice Page</title>
+    <title>Get Updates! Laptop of the Future</title>
     <link href='style.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
@@ -57,7 +57,29 @@
         <img src="./img/big-eclipse.svg" alt="big-e" class='big-circle'>
         <img src="./img/mid-eclipse.svg" alt="mid-e" class ='medium-circle'>
         <img src="./img/small-eclipse.svg" alt="small-e" class='small-circle'>
+    
+        <dialog class="modal" id="modal">
+            <div class="popup-container">
+                <div class="info-box"></div>
+                <div class="form-box">
+                    <h2>Why Sign Up?</h2>
+                    <p>
+                        If you didn't fall in love at first sight, then don't worry!
+                        We have an abundance of updates about this beautiful device coming
+                        soon, as well as other tech products we know you'll love. 
+                    </p>
+
+                    <form action="" method="">
+                        <input type="text" name="fname" id="fname" placeholder="First Name">
+                        <input type="email" name="email" id="email" placeholder="Email Address">
+
+                        <input type="button" class="submit-btn" value="Give Me Updates!">
+                    </form>
+                </div>
+            </div>
+        </dialog>
     </main>
     
+    <script src="./app.js"></script>
 </body>
 </html>
