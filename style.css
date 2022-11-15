@@ -176,7 +176,10 @@ nav {
     padding: 10px;
 }
 
-.form-box h2,
+.form-box h2 {
+    
+}
+
 .form-box p {
     padding-top: 20px;
 }
@@ -216,6 +219,15 @@ form input {
 
 .form-box h2 {
     color: #494964;
+}
+
+.close-box {
+    width: 98%;
+    text-align: end;
+}
+
+.close-box i:hover {
+    cursor: pointer;
 }
 
 @keyframes drop {
